@@ -1,5 +1,6 @@
 # Binaries for programs and plugins
 main
+app
 meson_setup
 *.exe
 *.exe~
@@ -9,6 +10,9 @@ meson_setup
 
 # Ignore binary output folders
 bin/
+build/
+builddir/
+installed/
 
 # Ignore common editor/system specific metadata
 .DS_Store
