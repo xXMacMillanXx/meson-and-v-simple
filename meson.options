@@ -1,0 +1,1 @@
+option('src_code_path', type : 'string', value : 'src', description : 'folder containing the source code')
