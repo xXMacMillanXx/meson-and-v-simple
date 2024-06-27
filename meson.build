@@ -10,5 +10,5 @@ mytarget = custom_target('targetname',
   # input : infile,
   command : [comp, join_paths(meson.current_source_dir(), get_option('src_code_path')), '-o', '@OUTPUT@'],
   install : true,
-  install_dir : join_paths(meson.current_source_dir(), 'installed'))
+  install_dir : join_paths(meson.current_source_dir(), get_option('install_path')))
 

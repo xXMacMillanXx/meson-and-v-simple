@@ -1,1 +1,2 @@
 option('src_code_path', type : 'string', value : 'src', description : 'folder containing the source code')
+option('install_path', type : 'string', value : 'installer', description : 'destination for install command')
